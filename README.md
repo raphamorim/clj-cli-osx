@@ -4,7 +4,7 @@ Installing Clojure on Mac OS X
 
 ## Dependencies
 
-Considering you all ready have Java and Brew installed.
+Considering you already have Java and Brew installed.
 
 ## Scripting
 
@@ -18,13 +18,13 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 source ~/.profile
 ```
 
-Donwload and unzip Clojure
+Donwload and unzip Clojure:
 
 ```sh
 curl -O -J -L http://repo1.maven.org/maven2/org/clojure/clojure/1.7.0/clojure-1.7.0.zip
 ```
 
-After unzip open clojure folder and test the build
+After unzip open clojure folder and test the build:
 
 ```sh
 java -cp clojure-1.7.0.jar clojure.main
@@ -34,7 +34,7 @@ user=> (+ 1 1)
 user=> (System/exit 0)
 ```
 
-Let's move jar file
+Let's move jar file:
 
 ```sh
 mkdir /usr/local/lib/clojure && cp clojure-1.7.0.jar /usr/local/lib/clojure/clojure.jar
@@ -98,7 +98,7 @@ Make the script executable:
 sudo chmod +x /usr/local/bin/clj
 ```
 
-Now you should be able to run Clojure from the command line.
+Now you should be able to run Clojure from the command line:
 
 ```sh
 clj

@@ -27,8 +27,8 @@ curl -O -J -L http://repo1.maven.org/maven2/org/clojure/clojure/1.7.0/clojure-1.
 After unzip open clojure folder and test the build
 
 ```sh
-java -cp clojure-1.1.0.jar clojure.main
-Clojure 1.1.0
+java -cp clojure-1.7.0.jar clojure.main
+Clojure 1.7.0
 user=> (+ 1 1)
 2
 user=> (System/exit 0)
